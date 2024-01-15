@@ -57,13 +57,13 @@
         echo '<td>', $row['torokubi'], '</td>';
         echo '<td>', $row['koshinbi'], '</td>';
         echo '<td>';
-        echo '<form action="G3-1.php" method="post">';
+        echo '<form action="G1-3-1.php" method="post">';
         echo '<input type="hidden" name="shop_id" value="',$row['shop_id'],'">';
         echo '<div class="button2">';
         echo '<button type="submit">編集</button>';
         echo '</div>';
         echo '</form>';
-        echo '<form action="G4-1.php" method="post">';
+        echo '<form action="G1-4-1.php" method="post">';
         echo '<input type="hidden" name="shop_id" value="',$row['shop_id'],'">';
         echo '<div class="button3">';
         echo '<button type="submit">削除</button>';

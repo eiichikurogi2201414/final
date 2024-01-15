@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+.body {
+    text-align: center;
+  font-family:'Verdana','Hiragino Sans','Meiryo',sans-serif;
+  margin: -27px 0%;
+  font-size: 20px;
+   }
+.header0{
+    display:inline-flex;
+    align-items: flex-start;
+    margin-left: 0px;
+  margin-top:30px;
+}
+/*SHOP名*/
+.name0{
+    display: inline-block; 
+}
+/*画面名*/
+h1{    
+    font-size: 50px;
+    display: inline; 
+  margin-left:400px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  }
+  .daimei{
+    display:inline-flex;
+    align-items:flex-end;
+  }
+.jusyo{
+  text-align:left;
+}
+.button1{
+  display: inline-block; 
+  margin-left:330px;
+  margin-bottom:55px;
+}
+.buttont{
+  width:150px;
+  height:50px;
+  font-size: 20px;
+}
+.button2{
+  padding-bottom:15px;
+}
+button{
+  width:80px;
+  height:35px;
+  font-size: 20px;
+}
+
+table{
+  width:1300px;
+  display: inline-block; 
+  text-align: center;
+  margin-top:0px;
+  padding-left:30px;
+  border-collapse: collapse ;
+  
+  
+}
+th{
+  border:1px solid #01010130;
+  height:62px;
+}
+td{
+  border:1px solid #01010130;
+  height:110px;
+}
+.id{
+  width:72px;
+}
+.mei{
+  width:220px;
+}
+.postcode{
+  width:90px;
+  margin-right:210px
+}
+.address{
+  width:300px;
+}
+.tel{
+  width:150px;
+}
+.imgpath{
+  width:150px;
+}
+.torokubi{
+  width:150px;
+}
+.koshinbi{
+  width:150px;
+}

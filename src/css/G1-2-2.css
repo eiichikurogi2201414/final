@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+.body {
+    text-align: center;
+    font-family: 'Verdana','Hiragino Sans','Meiryo',sans-serif;
+    margin: -27px 0%;
+    font-size: 20px;
+}
+.header0{
+    display:inline-flex;
+    align-items: flex-start;
+    margin-left: 0px;
+    margin-top:30px;
+}
+/*SHOP名*/
+.name0{
+    display: inline-block; 
+}
+/*画面名*/
+h1{    
+    font-size: 50px;
+    display: inline-block;
+    text-align:center;
+    height:70px;
+    margin-bottom: 40px;
+}
+.daimei{
+    display:inline;
+    text-align:center;
+}
+.jusyo{
+    text-align:left;
+}
+.button1{
+    display: inline-block; 
+    margin-left:330px;
+    margin-bottom:55px;
+}
+.buttont{
+    width:150px;
+    height:50px;
+    font-size: 20px;
+}
+.button2{
+    padding-bottom:15px;
+}
+button{
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+table{
+   display: inline-block; 
+   text-align: center;
+   margin-top: 0px;
+   border-collapse: collapse ;
+  
+}
+th{
+   border: 1px solid #01010130;
+}
+td{
+   border: 1px solid #01010130;
+}
