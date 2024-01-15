@@ -2,11 +2,15 @@
 
 .body {
     text-align: center;
+  font-family:'Verdana','Hiragino Sans','Meiryo',sans-serif;
+  margin: -27px 0%;
+  font-size: 20px;
    }
 .header0{
     display:inline-flex;
     align-items: flex-start;
     margin-left: 0px;
+  margin-top:30px;
 }
 /*SHOP名*/
 .name0{
@@ -18,31 +22,44 @@ h1{
     display: inline; 
   margin-left:400px;
   margin-top: 40px;
-  margin-bottom: 0px;
+  margin-bottom: 40px;
   }
   .daimei{
     display:inline-flex;
     align-items:flex-end;
-
   }
+.jusyo{
+  text-align:left;
+}
 .button1{
   display: inline-block; 
-  margin-left:350px;
-  margin-bottom:15px;
+  margin-left:330px;
+  margin-bottom:55px;
 }
 .buttont{
-  width:200px;
+  width:150px;
   height:50px;
+  font-size: 20px;
+}
+.button2{
+  padding-bottom:15px;
 }
 button{
-  width:100px;
-  height:40px;
+  width:80px;
+  height:35px;
   font-size: 20px;
 }
 
 table{
   display: inline-block; 
   text-align: center;
-  margin-top:70px;
+  margin-top:0px;
+  border-collapse: collapse ;
   
+}
+th{
+  border:1px solid #01010130;
+}
+td{
+  border:1px solid #01010130;
 }

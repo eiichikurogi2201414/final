@@ -26,7 +26,7 @@
         
     <?php
         echo '<div class="name4">';
-        echo '<h2>博多祝いめでた<br><audio controls autoplay controlslist="nodownload" src="./img/iwaimedeta.MP3"></audio></h2><br>';
+        echo '<h2>博多祝いめでた<br><audio controls controlslist="nodownload" src="./img/iwaimedeta.MP3"></audio></h2><br>';
         echo '</div><br><br>';
     ?> 
     </div>
@@ -37,21 +37,21 @@
 <div class="daimei">
         <h1>店舗一覧</h1>
 <div class="button1">
-    <button class="buttont" onclick="location.href='shohintorokuG2-1.php'">店舗登録</button>
+    <button class="buttont" onclick="location.href='G1-2-1.php'">店舗登録</button>
 </div>
-</div>
+</div><br>
     <!--画面名-->
     <!--テーブル-->
     <table>
     <tr><th>店舗ID</th><th>店舗名</th><th>郵便番号・住所</th><th>電話番号</th><th>店舗画像</th>
-    <th>登録日</th><th>更新日</th><th>編集・更新</th></tr>
+    <th>登録日</th><th>更新日</th><th>更新・削除</th></tr>
     <?php
     $pdo=new PDO($connect, USER, PASS);
     foreach ($pdo->query('select * from Shop') as $row) {
         echo '<tr>';
         echo '<td>', $row['shop_id'], '</td>';
         echo '<td>', $row['shop_mei'], '</td>';
-        echo '<td>', $row['postcode'],'<br>',$row['address'],'</td>';
+        echo '<td class="jusyo">', $row['postcode'],'<br>',$row['address'],'</td>';
         echo '<td>', $row['tel'], '</td>';
         echo '<td><img src="',$row['imgpath'],'" width="100" height="100" alt="店舗"></td>';
         echo '<td>', $row['torokubi'], '</td>';
@@ -63,7 +63,6 @@
         echo '<button type="submit">編集</button>';
         echo '</div>';
         echo '</form>';
-        echo '<br>';
         echo '<form action="G4-1.php" method="post">';
         echo '<input type="hidden" name="shop_id" value="',$row['shop_id'],'">';
         echo '<div class="button3">';
