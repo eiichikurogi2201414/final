@@ -4,7 +4,7 @@
   text-align: center;
   font-family:'Verdana','Hiragino Sans','Meiryo',sans-serif;
   margin: -27px 0%;
-  margin-left:16px;
+  margin-left:10px;
   font-size: 20px;
    }
 .header0{
@@ -49,7 +49,10 @@ button{
   width:80px;
   height:35px;
   font-size: 20px;
+  margin-right:10px;
+  margin-left:10px;
 }
+
 
 table{
   display: inline-block; 
@@ -76,10 +79,10 @@ td{
   margin-right:186px
 }
 .address{
-  width:277px;
+  width:260px;
 }
 .tel{
-  width:141px;
+  width:146px;
 }
 .imgpath{
   width:144px;

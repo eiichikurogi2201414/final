@@ -44,7 +44,7 @@
     <!--テーブル-->
     <table>
     <tr><th class="id">店舗ID</th><th class="mei">店舗名</th><th class="address">郵便番号・住所</th><th class="tel">電話番号</th><th class="imgpath">店舗画像</th>
-    <th class="torokubi">登録日</th><th class="koshinbi">更新日</th><th>更新・削除</th></tr>
+    <th class="torokubi">登録日</th><th class="koshinbi">更新日</th><th class="buttons">更新・削除</th></tr>
     <?php
     $pdo=new PDO($connect, USER, PASS);
     foreach ($pdo->query('select * from Shop') as $row) {
@@ -60,7 +60,7 @@
         echo '<form action="G1-3-1.php" method="post">';
         echo '<input type="hidden" name="shop_id" value="',$row['shop_id'],'">';
         echo '<div class="button2">';
-        echo '<button type="submit">編集</button>';
+        echo '<button type="submit">更新</button>';
         echo '</div>';
         echo '</form>';
         echo '<form action="G1-4-1.php" method="post">';
