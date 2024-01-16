@@ -3,7 +3,8 @@
 .body {
     text-align: center;
   font-family:'Verdana','Hiragino Sans','Meiryo',sans-serif;
-  margin: -27px 0%;
+  margin: -27px 0px;
+  margin-right:3px;
   font-size: 20px;
    }
 .header0{
@@ -51,11 +52,12 @@ button{
 }
 
 table{
-  width:1300px;
+  width:1320px;
   display: inline-block; 
   text-align: center;
   margin-top:0px;
-  padding-left:30px;
+  margin-right:0px;
+  padding-left:35px;
   border-collapse: collapse ;
   
   
@@ -69,27 +71,27 @@ td{
   height:110px;
 }
 .id{
-  width:72px;
+  width:68px;
 }
 .mei{
-  width:220px;
+  width:210px;
 }
 .postcode{
   width:90px;
-  margin-right:210px
+  margin-right:186px
 }
 .address{
-  width:300px;
+  width:277px;
 }
 .tel{
-  width:150px;
+  width:141px;
 }
 .imgpath{
-  width:150px;
+  width:144px;
 }
 .torokubi{
-  width:150px;
+  width:142px;
 }
 .koshinbi{
-  width:150px;
+  width:143px;
 }

@@ -1,16 +1,17 @@
 @charset "UTF-8";
 
-.body{
-    text-align: center;
-    font-family:'Verdana','Hiragino Sans','Meiryo',sans-serif;
-    margin: -27px 0%;
-    font-size: 20px;
-}
+.body {
+  text-align: center;
+  font-family:'Verdana','Hiragino Sans','Meiryo',sans-serif;
+  margin: -27px 0px;
+  margin-left:15px;
+  font-size: 20px;
+   }
 .header0{
     display:inline-flex;
     align-items: flex-start;
     margin-left: 0px;
-    margin-top:30px;
+  margin-top:30px;
 }
 /*SHOP名*/
 .name0{
@@ -20,11 +21,11 @@
 h1{    
     font-size: 50px;
     display: inline; 
-    margin-left:400px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-.daimei{
+  margin-left:400px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  }
+  .daimei{
     display:inline-flex;
     align-items:flex-end;
   }

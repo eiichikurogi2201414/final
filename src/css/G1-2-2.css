@@ -3,7 +3,8 @@
 .body {
     text-align: center;
     font-family: 'Verdana','Hiragino Sans','Meiryo',sans-serif;
-    margin: -27px 0%;
+    margin: -27px 0px;
+    margin-right:3px;
     font-size: 20px;
 }
 .header0{

@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
 .body {
-  text-align: center;
+    text-align: center;
   font-family:'Verdana','Hiragino Sans','Meiryo',sans-serif;
-  margin: -27px 0%;
-  margin-left:16px;
+  margin: -27px 0px;
+  margin-right:3px;
   font-size: 20px;
    }
 .header0{
@@ -52,10 +52,14 @@ button{
 }
 
 table{
+  width:1250px;
   display: inline-block; 
   text-align: center;
+  margin-right:px;
   margin-top:0px;
+  padding-left:0px;
   border-collapse: collapse ;
+  
   
 }
 th{
@@ -64,29 +68,30 @@ th{
 }
 td{
   border:1px solid #01010130;
+  height:110px;
 }
 .id{
-  width:68px;
+  width:72px;
 }
 .mei{
-  width:210px;
+  width:227px;
 }
 .postcode{
   width:90px;
-  margin-right:186px
+  margin-right:210px
 }
 .address{
-  width:277px;
+  width:307px;
 }
 .tel{
-  width:141px;
+  width:157px;
 }
 .imgpath{
-  width:144px;
+  width:156px;
 }
 .torokubi{
-  width:142px;
+  width:150px;
 }
 .koshinbi{
-  width:143px;
+  width:150px;
 }

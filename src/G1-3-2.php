@@ -26,7 +26,7 @@
         
     <?php
         echo '<div class="name4">';
-        echo '<h2>博多祝いめでた<br><audio controls autoplay controlslist="nodownload" src="./img/iwaimedeta.MP3"></audio></h2><br>';
+        echo '<h2>博多祝いめでた<br><audio controls controlslist="nodownload" src="./img/iwaimedeta.MP3"></audio></h2><br>';
         echo '</div><br><br>';
     ?> 
     </div>
