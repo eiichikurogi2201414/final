@@ -10,7 +10,7 @@
 .header0{
     display:inline-flex;
     align-items: flex-start;
-    margin-left: 0px;
+    margin-right: 7px;
   margin-top:30px;
 }
 /*SHOP名*/
@@ -21,7 +21,7 @@
 h1{    
     font-size: 50px;
     display: inline; 
-  margin-left:400px;
+  margin-left:413px;
   margin-top: 40px;
   margin-bottom: 40px;
   }
@@ -34,7 +34,7 @@ h1{
 }
 .button1{
   display: inline-block; 
-  margin-left:330px;
+  margin-left:340.5px;
   margin-bottom:55px;
 }
 .buttont{
@@ -77,11 +77,18 @@ td{
   width:227px;
 }
 .postcode{
-  width:90px;
-  margin-right:210px
+  width:100px;
+  text-align:left;
+  margin-left:36px;
+  height:0px;
 }
 .address{
-  width:307px;
+  width:300px;
+}
+.address2{
+  text-align:left;
+  margin-left:35px;
+  margin-bottom:20px;
 }
 .tel{
   width:157px;

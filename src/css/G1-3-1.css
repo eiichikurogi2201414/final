@@ -10,7 +10,7 @@
 .header0{
     display:inline-flex;
     align-items: flex-start;
-    margin-left: 0px;
+    margin-right: 7px;
   margin-top:30px;
 }
 /*SHOP名*/
@@ -82,6 +82,7 @@ td{
 }
 .address{
   width:277px;
+  margin-bottom:26px;
 }
 .tel{
   width:141px;

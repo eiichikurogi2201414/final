@@ -59,8 +59,8 @@
 		echo  $row['shop_mei'];
 		echo '</td> ';
 		echo '<td>';
-		echo  $row['postcode'],'<br>';
-        echo  $row['address'];
+		echo  '<div class="postcode">',$row['postcode'],'</div><br>';
+        echo  '<div class="address2">',$row['address'],'</div>';
 		echo '</td> ';
         echo '<td>';
 		echo  $row['tel'];
